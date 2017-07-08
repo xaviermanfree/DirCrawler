@@ -1,0 +1,21 @@
+1. Take user input for scraping Start-Point
+
+2. Take user input for scraping End-Point
+
+3. Take user input for directory to copy scraped files to
+
+4. Take user input for File Type(s) to scrape for
+
+5. Begin crawl at Start-point (I'll call this the Parent Directory)
+
+6. Scrape any files in Start-point (Parent Directory)
+
+7. Copy scraped files to specified directory
+
+8. Crawl (os.walk) to first sub directory
+    1.scrape files within sub directory
+    2.copy scraped files to specified directory
+    3.crawl next sub directory
+    4.Repeat
+
+9. Repeat
